@@ -3,3 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --bg-body : rgb(9 9 11/1);
+  --bgMain-color: rgba(94,176,239,.5);
+  --bg-minH: 150vh
+}
+
+.bgBody {
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg-body);
+}
+
+::selection {
+  color: rgb(21 94 117 / 1);
+  background-color: rgb(103 232 249 / 1);
+}
